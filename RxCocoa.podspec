@@ -28,4 +28,5 @@ Pod::Spec.new do |s|
   s.tvos.source_files     = 'RxCocoa/iOS/**/*.swift'
 
   s.dependency 'RxSwift', '~> 3.1'
+  s.dependency 'SJFluidSegmentedControl'
 end
